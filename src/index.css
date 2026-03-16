@@ -10,10 +10,20 @@
 
 @layer base {
   body {
-    @apply w-full relative overflow-x-hidden font-inter;
+    @apply w-full relative overflow-x-hidden font-inter bg-[#f5f5f5];
   }
 
   button {
     @apply cursor-pointer transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .pending {
+    @apply text-black/90 text-base font-medium;
+  }
+
+  .active {
+    @apply text-violet-700 text-base font-semibold underline;
   }
 }
