@@ -1,12 +1,25 @@
-# React + Vite
+# Hero IO (Assignment 3 of Mission Restart Bootcamp by Programming Hero - MRBA3)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub repo size](https://img.shields.io/github/repo-size/ownist/MRBA3)
+![GitHub License](https://img.shields.io/github/license/ownist/MRBA3)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/ownist/MRBA3)
+![GitHub last commit](https://img.shields.io/github/last-commit/ownist/MRBA3)
+![GitHub contributors](https://img.shields.io/github/contributors/ownist/MRBA3)
 
-Currently, two official plugins are available:
+## The Repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is developed as part of Assignment 3 for the Mission Restart Bootcamp by Programming Hero. The primary goal of this assignment is to build a responsive, user-friendly, and functional web application that demonstrates core frontend development skills. It focuses on clean UI design, efficient data handling, and providing a seamless user experience.
 
-## Expanding the ESLint configuration
+**Technologies Used:** Vite, React.js, React Router, Tailwindcss, Daisy UI, React Icons, Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## MRBA3
+
+<p align="left">
+    <img src="https://i.ibb.co.com/SHHpjbZ/hero-io.png" alt="B12JS in action" />
+</p>
+
+## License
+
+Copyright (c) Shahed Bishwas. All rights reserved.
+
+Licensed under the [MIT](LICENSE) license.
