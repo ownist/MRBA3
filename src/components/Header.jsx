@@ -6,7 +6,7 @@ import MobileMenu from "./MobileMenu";
 
 const Header = () => {
   return (
-    <header className="w-full bg-white border-b border-b-gray-200">
+    <header className="w-full sticky top-0 left-0 z-10 bg-white border-b border-b-gray-200">
       <nav className="max-w-360 mx-auto px-4 py-5 flex items-center justify-between">
         {/* logo */}
         <Link to={"/"} className="flex items-center gap-1">

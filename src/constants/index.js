@@ -20,3 +20,24 @@ export const heroBtn = [
     path: "https://apps.apple.com/us/iphone/today",
   },
 ];
+
+export const trustedBy = [
+  {
+    id: 1,
+    title: "Total Downloads",
+    review: "29.6M",
+    perText: "21% more than last month",
+  },
+  {
+    id: 2,
+    title: "Total Reviews",
+    review: "906K",
+    perText: "46% more than last month",
+  },
+  {
+    id: 3,
+    title: "Active Apps",
+    review: "132+",
+    perText: "31 more will Launch",
+  },
+];
