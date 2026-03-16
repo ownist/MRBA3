@@ -1,8 +1,16 @@
+import { Outlet } from "react-router";
+import Header from "./Header";
+import Footer from "./Footer";
+
 const Root = () => {
   return (
-    <div>
-      <h1>Root</h1>
-    </div>
+    <>
+      <Header />
+      <main className="max-w-360 mx-auto px-4">
+        <Outlet />
+      </main>
+      <Footer />
+    </>
   );
 };
 
