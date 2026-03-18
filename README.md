@@ -15,7 +15,7 @@ This project is developed as part of Assignment 3 for the Mission Restart Bootca
 ## MRBA3
 
 <p align="left">
-    <img src="https://i.ibb.co.com/PvbgGrbQ/hero-io.png" alt="B12JS in action" />
+    <img src="https://i.ibb.co.com/23bH9hpG/hero-io.png" alt="B12JS in action" />
 </p>
 
 ## License
