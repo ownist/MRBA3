@@ -1,0 +1,662 @@
+[
+  {
+    "image": "https://i.ibb.co.com/v4ZTMxwh/1.png",
+    "title": "Facebook Lite",
+    "companyName": "Meta",
+    "id": 1,
+    "description": "Facebook Lite is designed to provide a smooth and efficient social media experience even on slower networks and low-end devices. The app focuses on delivering core features such as news feed browsing, posting updates, liking and commenting, and connecting with friends, all while using minimal data and storage. \n\nUsers can stay updated with what matters most, including friends’ activities, trending topics, and community discussions. The lightweight design ensures faster loading times and reduced data usage, making it ideal for users in areas with limited connectivity. \n\nWith built-in messaging support, notifications, and customizable settings, Facebook Lite ensures that you never miss important updates. Whether you're sharing moments, following pages, or engaging with communities, the app offers a reliable and streamlined experience tailored for everyday use.",
+    "size": 30,
+    "reviews": 20000,
+    "ratingAvg": 4.2,
+    "downloads": 15000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1200
+      },
+      {
+        "name": "2 star",
+        "count": 1800
+      },
+      {
+        "name": "3 star",
+        "count": 4000
+      },
+      {
+        "name": "4 star",
+        "count": 6000
+      },
+      {
+        "name": "5 star",
+        "count": 7000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YTWHJTL9/2.jpg",
+    "title": "Messenger",
+    "companyName": "Meta",
+    "id": 2,
+    "description": "Messenger is a powerful communication app that allows users to stay connected through instant messaging, voice calls, and video chats. Designed for speed and reliability, it enables seamless conversations with friends, family, and colleagues across the globe. \n\nThe app supports multimedia sharing, including photos, videos, voice messages, and documents, making communication more expressive and interactive. Users can create group chats, customize themes, and use reactions and stickers to enhance conversations. \n\nMessenger also includes advanced features like end-to-end encryption, chat heads for multitasking, and integration with other services. Whether you're coordinating plans, catching up with loved ones, or collaborating on projects, Messenger provides a flexible and user-friendly platform.",
+    "size": 55,
+    "reviews": 25000,
+    "ratingAvg": 4.4,
+    "downloads": 20000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000
+      },
+      {
+        "name": "2 star",
+        "count": 1500
+      },
+      {
+        "name": "3 star",
+        "count": 5000
+      },
+      {
+        "name": "4 star",
+        "count": 8000
+      },
+      {
+        "name": "5 star",
+        "count": 9500
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4R77h6dV/3.jpg",
+    "title": "Instagram",
+    "companyName": "Meta",
+    "id": 3,
+    "description": "Instagram is a visually-driven social platform that allows users to share photos, videos, and stories while connecting with a global community. The app focuses on creativity and self-expression, offering a variety of tools such as filters, reels, and editing features to enhance content. \n\nUsers can follow friends, influencers, and brands, explore trending content, and engage through likes, comments, and direct messages. Stories and reels provide short-form content that keeps users entertained and informed in real-time. \n\nWith features like shopping integration, live streaming, and personalized feeds, Instagram creates a dynamic and immersive social experience. Whether you're showcasing your life, building a brand, or discovering new ideas, the platform offers endless opportunities for engagement.",
+    "size": 65,
+    "reviews": 30000,
+    "ratingAvg": 4.5,
+    "downloads": 30000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 900
+      },
+      {
+        "name": "2 star",
+        "count": 1200
+      },
+      {
+        "name": "3 star",
+        "count": 4000
+      },
+      {
+        "name": "4 star",
+        "count": 9000
+      },
+      {
+        "name": "5 star",
+        "count": 14900
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TMsf02Bp/4.avif",
+    "title": "YouTube",
+    "companyName": "Google",
+    "id": 4,
+    "description": "YouTube is the world's leading video-sharing platform, offering access to millions of videos across various categories including entertainment, education, technology, and more. Users can watch, upload, and interact with content creators from around the globe. \n\nThe app provides personalized recommendations based on user preferences, ensuring a tailored viewing experience. Features such as subscriptions, playlists, and offline downloads enhance usability and convenience. \n\nCreators can build audiences, monetize content, and engage with viewers through comments and live streams. Whether you're learning new skills, enjoying entertainment, or staying updated with trends, YouTube serves as a comprehensive video hub.",
+    "size": 80,
+    "reviews": 40000,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1200
+      },
+      {
+        "name": "2 star",
+        "count": 1800
+      },
+      {
+        "name": "3 star",
+        "count": 5000
+      },
+      {
+        "name": "4 star",
+        "count": 12000
+      },
+      {
+        "name": "5 star",
+        "count": 20000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/k6yJH7Gm/5.png",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "id": 5,
+    "description": "Google Maps is a comprehensive navigation and location-based service that helps users explore the world with ease. It provides real-time GPS navigation, traffic updates, and route suggestions for driving, walking, cycling, and public transport. \n\nUsers can discover nearby places, read reviews, and view photos of restaurants, shops, and attractions. The app also offers offline maps, allowing navigation even without an internet connection. \n\nWith features like live traffic conditions, street view, and location sharing, Google Maps ensures a reliable and efficient travel experience. Whether you're commuting daily or exploring new destinations, it acts as a trusted guide.",
+    "size": 70,
+    "reviews": 22000,
+    "ratingAvg": 4.5,
+    "downloads": 25000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 800
+      },
+      {
+        "name": "2 star",
+        "count": 1200
+      },
+      {
+        "name": "3 star",
+        "count": 4000
+      },
+      {
+        "name": "4 star",
+        "count": 7000
+      },
+      {
+        "name": "5 star",
+        "count": 9000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/21Btf6dr/6.jpg",
+    "title": "Gmail",
+    "companyName": "Google",
+    "id": 6,
+    "description": "Gmail is a secure and efficient email service designed to manage communication effortlessly. It offers powerful spam filtering, smart categorization, and seamless integration with other Google services. \n\nUsers can send, receive, and organize emails with ease while benefiting from advanced search functionality and real-time notifications. The app supports multiple accounts and provides a clean, user-friendly interface. \n\nWith built-in security features and productivity tools, Gmail ensures reliable communication for both personal and professional use.",
+    "size": 40,
+    "reviews": 21000,
+    "ratingAvg": 4.4,
+    "downloads": 23000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 900
+      },
+      {
+        "name": "2 star",
+        "count": 1400
+      },
+      {
+        "name": "3 star",
+        "count": 3500
+      },
+      {
+        "name": "4 star",
+        "count": 7000
+      },
+      {
+        "name": "5 star",
+        "count": 8200
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nN6c4XjH/7.png",
+    "title": "Spotify",
+    "companyName": "Spotify",
+    "id": 7,
+    "description": "Spotify is a leading music streaming platform that gives users access to millions of songs, podcasts, and playlists. It offers personalized recommendations based on listening habits, helping users discover new content effortlessly. \n\nUsers can create playlists, download music for offline listening, and enjoy high-quality audio streaming. The app also features curated playlists and exclusive content from artists worldwide. \n\nWhether you're relaxing, working, or traveling, Spotify delivers a seamless and immersive audio experience tailored to your preferences.",
+    "size": 75,
+    "reviews": 27000,
+    "ratingAvg": 4.5,
+    "downloads": 28000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000
+      },
+      {
+        "name": "2 star",
+        "count": 1500
+      },
+      {
+        "name": "3 star",
+        "count": 4500
+      },
+      {
+        "name": "4 star",
+        "count": 9000
+      },
+      {
+        "name": "5 star",
+        "count": 11000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kj0tyYTf/ne.png",
+    "title": "Netflix",
+    "companyName": "Netflix",
+    "id": 8,
+    "description": "Netflix is a premium streaming service that offers a vast library of movies, TV shows, and original content. Users can enjoy high-quality streaming with personalized recommendations based on viewing history. \n\nThe app supports multiple profiles, offline downloads, and cross-device synchronization, ensuring flexibility and convenience. With regularly updated content, users always have something new to watch. \n\nWhether you're into drama, comedy, or documentaries, Netflix provides an engaging entertainment experience for all audiences.",
+    "size": 90,
+    "reviews": 35000,
+    "ratingAvg": 4.6,
+    "downloads": 32000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000
+      },
+      {
+        "name": "2 star",
+        "count": 1500
+      },
+      {
+        "name": "3 star",
+        "count": 5000
+      },
+      {
+        "name": "4 star",
+        "count": 11000
+      },
+      {
+        "name": "5 star",
+        "count": 16500
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Z1Jsg1bq/9.jpg",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon",
+    "id": 9,
+    "description": "Amazon Shopping is a convenient e-commerce platform that allows users to browse and purchase millions of products from various categories. It offers a seamless shopping experience with secure payments and fast delivery options. \n\nUsers can read reviews, compare prices, and track orders in real-time. The app also provides personalized recommendations and deals based on user preferences. \n\nWith reliable customer service and a wide product range, Amazon Shopping makes online shopping simple and efficient.",
+    "size": 85,
+    "reviews": 33000,
+    "ratingAvg": 4.4,
+    "downloads": 31000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1500
+      },
+      {
+        "name": "2 star",
+        "count": 2000
+      },
+      {
+        "name": "3 star",
+        "count": 6000
+      },
+      {
+        "name": "4 star",
+        "count": 11000
+      },
+      {
+        "name": "5 star",
+        "count": 12500
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bg0ZZHfq/10.png",
+    "title": "Google Drive",
+    "companyName": "Google",
+    "id": 10,
+    "description": "Google Drive is a cloud storage solution that allows users to store, access, and share files securely from anywhere. It supports various file types including documents, images, and videos. \n\nUsers can collaborate in real-time, organize files into folders, and access them across devices. Offline access ensures productivity even without internet connectivity. \n\nWith strong security and integration with Google Workspace, Drive enhances both personal and team productivity.",
+    "size": 50,
+    "reviews": 19000,
+    "ratingAvg": 4.3,
+    "downloads": 20000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000
+      },
+      {
+        "name": "2 star",
+        "count": 1500
+      },
+      {
+        "name": "3 star",
+        "count": 4000
+      },
+      {
+        "name": "4 star",
+        "count": 6000
+      },
+      {
+        "name": "5 star",
+        "count": 6500
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pBPSTgCG/11.jpg",
+    "title": "GitHub",
+    "companyName": "Microsoft",
+    "id": 11,
+    "description": "GitHub is a powerful platform designed for developers to host, manage, and collaborate on code repositories efficiently. It provides version control using Git, allowing users to track changes, manage different branches, and work on projects without conflicts. \n\nDevelopers can collaborate seamlessly by contributing to shared repositories, reviewing code, and managing pull requests. The platform encourages open-source contributions, making it easier to learn, share, and build together with a global community. \n\nWith features like issue tracking, project boards, and automation workflows, GitHub enhances productivity and organization. Whether you're working on personal projects or large-scale applications, it provides the tools needed for modern software development.",
+    "size": 45,
+    "reviews": 15000,
+    "ratingAvg": 4.6,
+    "downloads": 18000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 400
+      },
+      {
+        "name": "2 star",
+        "count": 600
+      },
+      {
+        "name": "3 star",
+        "count": 2000
+      },
+      {
+        "name": "4 star",
+        "count": 5000
+      },
+      {
+        "name": "5 star",
+        "count": 7000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Z1TWkjPB/12.png",
+    "title": "Microsoft Word",
+    "companyName": "Microsoft",
+    "id": 12,
+    "description": "Microsoft Word is a comprehensive document editing application that enables users to create, edit, and format professional documents with ease. It offers a wide range of tools for text formatting, styling, and layout customization, making it suitable for everything from simple notes to complex reports. \n\nUsers can insert images, tables, charts, and other elements to enhance their documents. The app also supports real-time collaboration, allowing multiple users to work on the same document simultaneously. \n\nWith cloud integration and automatic saving, Microsoft Word ensures that your work is always secure and accessible. Whether for academic, professional, or personal use, it remains one of the most reliable word processing tools available.",
+    "size": 95,
+    "reviews": 26000,
+    "ratingAvg": 4.5,
+    "downloads": 27000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000
+      },
+      {
+        "name": "2 star",
+        "count": 1500
+      },
+      {
+        "name": "3 star",
+        "count": 5000
+      },
+      {
+        "name": "4 star",
+        "count": 9000
+      },
+      {
+        "name": "5 star",
+        "count": 9500
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/kVTW54Ch/13.avif",
+    "title": "Zoom",
+    "companyName": "Zoom",
+    "id": 13,
+    "description": "Zoom is a leading video conferencing platform that enables users to connect through high-quality video and audio calls. It is widely used for meetings, webinars, online classes, and remote collaboration. \n\nThe app supports features such as screen sharing, virtual backgrounds, breakout rooms, and meeting recordings, making it a versatile tool for both personal and professional use. Users can host large meetings and manage participants بسهولة with built-in controls. \n\nWith a focus on reliability and performance, Zoom ensures smooth communication even in varying network conditions. Whether you're attending a class, hosting a business meeting, or connecting with friends, it provides a seamless virtual experience.",
+    "size": 70,
+    "reviews": 18000,
+    "ratingAvg": 4.3,
+    "downloads": 22000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 800
+      },
+      {
+        "name": "2 star",
+        "count": 1200
+      },
+      {
+        "name": "3 star",
+        "count": 4000
+      },
+      {
+        "name": "4 star",
+        "count": 6000
+      },
+      {
+        "name": "5 star",
+        "count": 6000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/NngFcytY/14.jpg",
+    "title": "Canva",
+    "companyName": "Canva",
+    "id": 14,
+    "description": "Canva is an intuitive design platform that allows users to create stunning graphics, presentations, and social media content without any prior design experience. It offers a wide variety of templates, fonts, images, and design elements that can be customized بسهولة. \n\nUsers can design everything from posters and logos to presentations and marketing materials. The drag-and-drop interface makes the design process simple and efficient. \n\nWith collaboration features and cloud storage, Canva enables teams to work together in real-time. Whether you're a student, marketer, or content creator, it provides all the tools needed to bring your ideas to life visually.",
+    "size": 60,
+    "reviews": 24000,
+    "ratingAvg": 4.7,
+    "downloads": 26000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500
+      },
+      {
+        "name": "2 star",
+        "count": 700
+      },
+      {
+        "name": "3 star",
+        "count": 2500
+      },
+      {
+        "name": "4 star",
+        "count": 7000
+      },
+      {
+        "name": "5 star",
+        "count": 13300
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tM8yCxbG/15.webp",
+    "title": "Airbnb",
+    "companyName": "Airbnb",
+    "id": 15,
+    "description": "Airbnb is a global platform that allows users to book unique accommodations and experiences in different locations around the world. It connects travelers with hosts offering homes, apartments, and other lodging options. \n\nUsers can browse listings, read reviews, and compare prices to find the perfect stay. The app also provides secure payment options and customer support for a safe booking experience. \n\nWith personalized recommendations and flexible search filters, Airbnb makes travel planning and convenient. Whether you're going on a vacation or a business trip, it offers a wide range of options to suit your needs.",
+    "size": 65,
+    "reviews": 16000,
+    "ratingAvg": 4.4,
+    "downloads": 17000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 700
+      },
+      {
+        "name": "2 star",
+        "count": 1000
+      },
+      {
+        "name": "3 star",
+        "count": 3000
+      },
+      {
+        "name": "4 star",
+        "count": 5000
+      },
+      {
+        "name": "5 star",
+        "count": 6300
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C5r0w123/16.png",
+    "title": "Uber Eats",
+    "companyName": "Uber",
+    "id": 16,
+    "description": "Uber Eats is a convenient food delivery service that connects users with local restaurants and food outlets. It allows users to browse menus, place orders, and track deliveries in real-time. \n\nThe app provides multiple payment options and personalized recommendations based on user preferences. With estimated delivery times and order tracking, users can stay updated throughout the process. \n\nWhether you're craving fast food or a full-course meal, Uber Eats makes ordering food quick and hassle-free, bringing your favorite dishes right to your doorstep.",
+    "size": 55,
+    "reviews": 21000,
+    "ratingAvg": 4.3,
+    "downloads": 24000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 900
+      },
+      {
+        "name": "2 star",
+        "count": 1300
+      },
+      {
+        "name": "3 star",
+        "count": 5000
+      },
+      {
+        "name": "4 star",
+        "count": 7000
+      },
+      {
+        "name": "5 star",
+        "count": 6800
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/239Mzwdz/17.jpg",
+    "title": "Uber",
+    "companyName": "Uber",
+    "id": 17,
+    "description": "Uber is a ride-hailing application that provides fast and reliable transportation services. Users can book rides بسهولة, track drivers in real-time, and get estimated fares before confirming trips. \n\nThe app offers different ride options to suit various needs, from budget-friendly rides to premium services. Safety features such as driver details, ride tracking, and emergency assistance enhance user confidence. \n\nWhether you're commuting daily or traveling to a new destination, Uber offers a convenient and efficient way to get around.",
+    "size": 60,
+    "reviews": 28000,
+    "ratingAvg": 4.4,
+    "downloads": 30000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1200
+      },
+      {
+        "name": "2 star",
+        "count": 1600
+      },
+      {
+        "name": "3 star",
+        "count": 6000
+      },
+      {
+        "name": "4 star",
+        "count": 9000
+      },
+      {
+        "name": "5 star",
+        "count": 10200
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4ZcF4NdQ/18.webp",
+    "title": "PayPal",
+    "companyName": "PayPal",
+    "id": 18,
+    "description": "PayPal is a secure digital payment platform that allows users to send, receive, and manage money online. It supports transactions across multiple currencies, making it ideal for international payments. \n\nUsers can link bank accounts, credit cards, or debit cards to perform seamless transactions. The app also provides purchase protection and advanced security features to ensure safe financial operations. \n\nWhether you're shopping online, sending money to friends, or managing business payments, PayPal offers a trusted and convenient solution.",
+    "size": 50,
+    "reviews": 17000,
+    "ratingAvg": 4.3,
+    "downloads": 19000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 800
+      },
+      {
+        "name": "2 star",
+        "count": 1200
+      },
+      {
+        "name": "3 star",
+        "count": 4000
+      },
+      {
+        "name": "4 star",
+        "count": 6000
+      },
+      {
+        "name": "5 star",
+        "count": 5000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/67zBw56J/19.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo",
+    "id": 19,
+    "description": "Duolingo is an interactive language learning app designed to make education fun and engaging. It uses gamified lessons, quizzes, and rewards to help users learn new languages step by step. \n\nUsers can practice reading, writing, listening, and speaking skills through short, manageable lessons. Progress tracking and daily goals keep learners motivated and consistent. \n\nWith a wide range of languages and a user-friendly interface, Duolingo makes learning accessible for everyone. Whether you're a beginner or looking to improve your skills, it provides an enjoyable learning experience.",
+    "size": 45,
+    "reviews": 23000,
+    "ratingAvg": 4.7,
+    "downloads": 26000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 400
+      },
+      {
+        "name": "2 star",
+        "count": 600
+      },
+      {
+        "name": "3 star",
+        "count": 2000
+      },
+      {
+        "name": "4 star",
+        "count": 6000
+      },
+      {
+        "name": "5 star",
+        "count": 14000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KcZqj5J1/20.png",
+    "title": "Evernote",
+    "companyName": "Evernote",
+    "id": 20,
+    "description": "Evernote is a productivity app that helps users organize their notes, tasks, and ideas efficiently. It allows users to create text notes, attach files, and organize content into notebooks for easy access. \n\nUsers can sync their data across multiple devices, ensuring that information is always available when needed. The app also supports search functionality, reminders, and task management features. \n\nWhether you're planning projects, taking notes, or managing daily tasks, Evernote provides a structured and reliable way to stay organized and productive.",
+    "size": 50,
+    "reviews": 14000,
+    "ratingAvg": 4.2,
+    "downloads": 15000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 700
+      },
+      {
+        "name": "2 star",
+        "count": 900
+      },
+      {
+        "name": "3 star",
+        "count": 3000
+      },
+      {
+        "name": "4 star",
+        "count": 5000
+      },
+      {
+        "name": "5 star",
+        "count": 4400
+      }
+    ]
+  }
+]
