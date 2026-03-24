@@ -1,7 +1,16 @@
-import { Suspense } from "react";
+import { lazy, Suspense } from "react";
 import { LuSearch } from "react-icons/lu";
 import { useLoaderData } from "react-router";
-import TrendingAppsCard from "../components/TrendingAppsCard";
+import TrendingAppsCardSkeleton from "../components/TrendingAppsCardSkeleton";
+
+const TrendingAppsCard = lazy(
+  () =>
+    new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(import("../components/TrendingAppsCard"));
+      }, 1500);
+    }),
+);
 
 const Apps = () => {
   const appData = useLoaderData();
@@ -15,11 +24,9 @@ const Apps = () => {
         </p>
       </div>
 
-      {/* filter */}
       <div className="mt-10 mb-4 flex flex-col items-center justify-center gap-4 sm:flex-row sm:justify-between">
         <h4 className="text-main text-2xl font-semibold">(132) Apps Found</h4>
 
-        {/* input */}
         <div className="w-full sm:w-96 relative">
           <input
             className="w-full px-4 pl-11 py-[12.5px] rounded-sm border border-neutral-300 text-slate-500 text-base font-normal"
@@ -33,13 +40,13 @@ const Apps = () => {
       </div>
 
       <div className="">
-        <Suspense>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-            {appData.map((app) => (
-              <TrendingAppsCard app={app} key={app.id} />
-            ))}
-          </div>
-        </Suspense>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          {appData.map((app) => (
+            <Suspense key={app.id} fallback={<TrendingAppsCardSkeleton />}>
+              <TrendingAppsCard app={app} />
+            </Suspense>
+          ))}
+        </div>
       </div>
     </section>
   );

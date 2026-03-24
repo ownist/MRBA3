@@ -1,9 +1,11 @@
 import { GiRoundStar } from "react-icons/gi";
 import { MdOutlineFileDownload } from "react-icons/md";
+import { Link } from "react-router";
 
 const TrendingAppsCard = ({ app }) => {
   return (
-    <div className="bg-white rounded-sm">
+    <Link to={`/apps/${app.id}`} className="block h-full transition-transform hover:-translate-y-1">
+      <div className="bg-white rounded-sm h-full">
       <div className="p-4 space-y-4">
         {/* image */}
         <div className="w-full h-full sm:h-80 border border-gray-200 rounded-lg">
@@ -34,8 +36,9 @@ const TrendingAppsCard = ({ app }) => {
             </div>
           </div>
         </div>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

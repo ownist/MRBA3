@@ -1,6 +1,16 @@
+import { lazy, Suspense } from "react";
 import { Link } from "react-router";
-import TrendingAppsCard from "./TrendingAppsCard";
+import TrendingAppsCardSkeleton from "./TrendingAppsCardSkeleton";
 
+
+const TrendingAppsCard = lazy(
+  () =>
+    new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(import("./TrendingAppsCard"));
+      }, 1500);
+    })
+);
 const TrendingApps = ({ appsData }) => {
   return (
     <section className="w-full mt-20">
@@ -16,7 +26,9 @@ const TrendingApps = ({ appsData }) => {
         {/* apps cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {appsData.slice(0, 8).map((app) => (
-            <TrendingAppsCard key={app.id} app={app} />
+            <Suspense key={app.id} fallback={<TrendingAppsCardSkeleton />}>
+              <TrendingAppsCard app={app} />
+            </Suspense>
           ))}
         </div>
 
