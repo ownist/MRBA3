@@ -27,15 +27,13 @@ export const router = createBrowserRouter([
           const res = await fetch("/data.json");
           const data = await res.json();
           const app = data.find((a) => String(a.id) === params.id);
-          if (!app) {
-            throw new Response("Not Found", { status: 404 });
-          }
           return app;
         },
         Component: AppDetails,
       },
       {
         path: "/installation",
+        loader: () => fetch("/data.json"),
         Component: Installation,
       },
     ],

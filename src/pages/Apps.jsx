@@ -25,7 +25,9 @@ const Apps = () => {
       </div>
 
       <div className="mt-10 mb-4 flex flex-col items-center justify-center gap-4 sm:flex-row sm:justify-between">
-        <h4 className="text-main text-2xl font-semibold">(132) Apps Found</h4>
+        <h4 className="text-main text-2xl font-semibold">
+          ({appData.length}) Apps Found
+        </h4>
 
         <div className="w-full sm:w-96 relative">
           <input

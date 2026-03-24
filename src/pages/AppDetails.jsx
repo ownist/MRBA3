@@ -1,6 +1,9 @@
 import { useLoaderData } from "react-router";
+import { useState, useEffect } from "react";
 import { GiRoundStar } from "react-icons/gi";
 import { MdOutlineFileDownload, MdOutlineReviews } from "react-icons/md";
+import toast from "react-hot-toast";
+import { getInstalledApps, saveApp } from "../utils/localStorage";
 import {
   BarChart,
   Bar,
@@ -12,6 +15,23 @@ import {
 
 const AppDetails = () => {
   const app = useLoaderData();
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  useEffect(() => {
+    if (app) {
+      const apps = getInstalledApps();
+      setIsInstalled(apps.includes(app.id));
+    }
+  }, [app]);
+
+  const handleInstall = () => {
+    if (saveApp(app.id)) {
+      setIsInstalled(true);
+      toast.success(`${app.title} installed successfully!`);
+    } else {
+      toast.error(`${app.title} is already installed.`);
+    }
+  };
 
   const chartData = [...(app.ratings || [])].reverse().map((r) => ({
     name: r.name,
@@ -37,7 +57,6 @@ const AppDetails = () => {
             />
           </div>
 
-          {/* Right Info Content */}
           <div className="flex-1 w-full pt-4">
             <h1 className="text-3xl lg:text-4xl font-bold text-slate-800 mb-2 tracking-tight">
               {app.title}
@@ -45,14 +64,13 @@ const AppDetails = () => {
             <p className="text-gray-500 text-lg lg:text-xl font-normal">
               Developed by{" "}
               <span className="text-indigo-600 font-medium">
-                {app.companyName || "productive.io"}
+                {app.companyName}
               </span>
             </p>
 
             <hr className="my-8 border-gray-200 border-t-2" />
 
             <div className="flex flex-wrap items-center gap-10 lg:gap-20 mb-8">
-              {/* Downloads */}
               <div className="flex flex-col gap-1">
                 <div className="flex items-center gap-2 text-gray-500">
                   <MdOutlineFileDownload className="text-emerald-500 text-2xl lg:text-3xl" />
@@ -67,7 +85,6 @@ const AppDetails = () => {
                 </p>
               </div>
 
-              {/* Rating Avg */}
               <div className="flex flex-col gap-1">
                 <div className="flex items-center gap-2 text-gray-500">
                   <GiRoundStar className="text-orange-400 text-2xl lg:text-3xl" />
@@ -80,7 +97,6 @@ const AppDetails = () => {
                 </p>
               </div>
 
-              {/* Total Reviews */}
               <div className="flex flex-col gap-1">
                 <div className="flex items-center gap-2 text-gray-500">
                   <MdOutlineReviews className="text-purple-500 text-2xl lg:text-3xl" />
@@ -96,8 +112,16 @@ const AppDetails = () => {
               </div>
             </div>
 
-            <button className="bg-[#00d084] hover:bg-[#00b875] transition-colors text-white font-medium py-3.5 px-8 rounded-sm text-lg shadow-sm">
-              Install Now ({app.size} MB)
+            <button
+              onClick={handleInstall}
+              disabled={isInstalled}
+              className={`transition-colors text-white font-medium py-3.5 px-8 rounded-sm text-lg shadow-sm ${
+                isInstalled
+                  ? "bg-gray-400 cursor-not-allowed"
+                  : "bg-[#00d084] hover:bg-[#00b875]"
+              }`}
+            >
+              {isInstalled ? "Installed" : `Install Now (${app.size} MB)`}
             </button>
           </div>
         </div>
