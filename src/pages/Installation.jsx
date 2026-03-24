@@ -8,7 +8,7 @@ import { getInstalledApps, removeApp } from "../utils/localStorage";
 const Installation = () => {
   const allApps = useLoaderData() || [];
   const [installedApps, setInstalledApps] = useState([]);
-  const [sortBy, setSortBy] = useState("Sort By Size");
+  const [sortBy, setSortBy] = useState("Sort by Downloads");
 
   useEffect(() => {
     const storedIds = getInstalledApps();
@@ -23,10 +23,10 @@ const Installation = () => {
   };
 
   const sortedApps = [...installedApps].sort((a, b) => {
-    if (sortBy === "Largest First") {
-      return b.size - a.size;
-    } else if (sortBy === "Smallest First") {
-      return a.size - b.size;
+    if (sortBy === "High-Low") {
+      return b.downloads - a.downloads;
+    } else if (sortBy === "Low-High") {
+      return a.downloads - b.downloads;
     }
     return 0;
   });
@@ -51,12 +51,12 @@ const Installation = () => {
             onChange={(e) => setSortBy(e.target.value)}
             className="select select-bordered bg-[#f8f9fa] border-gray-300 text-gray-500 w-full xs:w-auto max-w-xs focus:outline-none rounded-sm font-normal"
           >
-            <option disabled value="Sort By Size">
-              Sort By Size
+            <option disabled value="Sort by Downloads">
+              Sort by Downloads
             </option>
-            <option value="Sort By Size">Sort By Size</option>
-            <option value="Largest First">Largest First</option>
-            <option value="Smallest First">Smallest First</option>
+            <option value="Sort by Downloads">Sort by Downloads</option>
+            <option value="High-Low">High-Low</option>
+            <option value="Low-High">Low-High</option>
           </select>
         </div>
 
