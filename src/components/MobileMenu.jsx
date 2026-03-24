@@ -43,7 +43,7 @@ const MobileMenu = () => {
       />
 
       <div
-        className={`fixed top-0 right-0 w-[85%] max-w-[340px] h-full bg-white z-50 shadow-2xl transition-transform duration-300 ease-in-out flex flex-col ${
+        className={`fixed top-0 right-0 w-[85%] max-w-85 h-full bg-white z-50 shadow-2xl transition-transform duration-300 ease-in-out flex flex-col ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
