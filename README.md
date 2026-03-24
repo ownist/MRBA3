@@ -10,7 +10,7 @@
 
 This project is developed as part of Assignment 3 for the Mission Restart Bootcamp by Programming Hero. The primary goal of this assignment is to build a responsive, user-friendly, and functional web application that demonstrates core frontend development skills. It focuses on clean UI design, efficient data handling, and providing a seamless user experience.
 
-**Technologies Used:** Vite, React.js, React Router, Tailwindcss, Daisy UI, React Icons, Vercel
+> **Technologies Used:** Vite, React.js, React Router, Tailwindcss, Daisy UI, React Icons, Vercel
 
 ## MRBA3
 
