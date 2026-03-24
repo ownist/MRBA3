@@ -14,6 +14,7 @@ const TrendingAppsCard = lazy(
 );
 
 const Apps = () => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const appData = useLoaderData() || [];
   const [searchText, setSearchText] = useState("");
   const [isSearching, setIsSearching] = useState(false);
