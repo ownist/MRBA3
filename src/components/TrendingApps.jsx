@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import TrendingAppsCard from "./TrendingAppsCard";
 
 const TrendingApps = ({ appsData }) => {
@@ -21,9 +22,11 @@ const TrendingApps = ({ appsData }) => {
 
         {/* show all btn */}
         <div className="flex items-center justify-center text-center">
-          <button className="text-white text-base font-semibold px-10 py-3.5 bg-linear-30 from-violet-700 to-purple-500 rounded-sm transition duration-150 transform active:scale-90">
-            Show All
-          </button>
+          <Link to={"/apps"}>
+            <button className="text-white text-base font-semibold px-10 py-3.5 bg-linear-30 from-violet-700 to-purple-500 rounded-sm transition duration-150 transform active:scale-90">
+              Show All
+            </button>
+          </Link>
         </div>
       </div>
     </section>

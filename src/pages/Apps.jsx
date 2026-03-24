@@ -1,6 +1,11 @@
+import { Suspense } from "react";
 import { LuSearch } from "react-icons/lu";
+import { useLoaderData } from "react-router";
+import TrendingAppsCard from "../components/TrendingAppsCard";
 
 const Apps = () => {
+  const appData = useLoaderData();
+
   return (
     <section className="max-w-360 mx-auto px-4 mt-8 sm:mt-20">
       <div className="text-center space-y-4">
@@ -25,6 +30,16 @@ const Apps = () => {
           />
           <LuSearch className="text-xl text-slate-500 absolute top-1/2 left-4 -translate-y-1/2" />
         </div>
+      </div>
+
+      <div className="">
+        <Suspense>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            {appData.map((app) => (
+              <TrendingAppsCard app={app} key={app.id} />
+            ))}
+          </div>
+        </Suspense>
       </div>
     </section>
   );
