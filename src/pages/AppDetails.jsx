@@ -12,6 +12,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import AppNotFound from "./AppNotFound";
 
 const AppDetails = () => {
   const app = useLoaderData();
@@ -23,6 +24,10 @@ const AppDetails = () => {
       setIsInstalled(apps.includes(app.id));
     }
   }, [app]);
+
+  if (!app) {
+    return <AppNotFound />;
+  }
 
   const handleInstall = () => {
     if (saveApp(app.id)) {

@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import Apps from "../pages/Apps";
 import AppDetails from "../pages/AppDetails";
 import Installation from "../pages/Installation";
+import Error404 from "../pages/Error404";
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
         path: "/installation",
         loader: () => fetch("/data.json"),
         Component: Installation,
+      },
+      {
+        path: "*",
+        Component: Error404,
       },
     ],
   },
